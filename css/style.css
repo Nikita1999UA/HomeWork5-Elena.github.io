@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;  
+}
+
+
+
+section.about{
+    background-image: url("../img/fon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: #ffffff;
+}
+
+
+section.about  .text__header{
+    font-family: "Ubuntu";
+    font-size: 52px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+section.about ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+section.about .menu {
+    margin-top: 25px;
+}
+
+section.about .menu__link  {
+    display: flex;
+    padding: 20px;
+}
+
+
+section.about .menu__link  a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+section.about .text__main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.about .text__main_b{
+    font-size: 53px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+
+section.about .text__headline{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top:40px;
+}
+
+section.about .text__headline:before,
+section.about .text__headline:after{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 117px;
+  height: 3px;
+  background: #ffffff4b;
+  border-width: 0 10px;
+}
+
+
+section.about .text__headline:before {
+    margin-left: -100%;
+  }
+
+section.about .text__headline:after {
+    margin-right: -100%;
+}
+
+section.about .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+section.about .btn{
+    height: 50px;
+    width: 240px;
+    border-radius: 25px;
+    background-color: #50c3af;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+section.services {
+    min-height: 250px;
+    background-color: #eaeaeb;
+}
+
+
+div.container.serv{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+
+section.services .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.services .item img{
+    width: 40px;
+    height: 40px;
+}
+
+section.services .item h4{
+    color: #384048;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+section.services  div.line{
+    height: 3px;
+    background-color: #29313925;
+    width: 85%;
+    margin-top: 15px;
+}
+
+section.services .item-text {
+    font-size: 14px;
+    text-align: center;
+    color: #787b80;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
