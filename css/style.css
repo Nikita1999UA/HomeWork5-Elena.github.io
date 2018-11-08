@@ -570,4 +570,71 @@ section.just .btn_b{
     font-size: 14px;
 }
 
+section.features {
+    height: auto;
+    background-color: #50c3af;
+    padding-bottom: 70px;
+}
+
+
+section.features .head{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 70px;
+}
+
+section.features .head__text{
+    font-size: 18px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+
+section.features .fea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+section.features .item{
+    display: flex;
+}
+
+footer.bottom {
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+footer.bottom .copy{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    min-height: 50px;
+}
+
+
+footer.bottom .copyElena{
+    color: #787b80;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer.bottom .copyRight{
+    color: #aaacaf;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer.bottom .link a{
+    padding: 5px;
+}
+
 
