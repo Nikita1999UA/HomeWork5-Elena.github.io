@@ -11,6 +11,10 @@
         align-items: center;
     }
 
+    section.services .item{
+        margin-top: 50px;
+    }
+
     div.container.serv{
         flex-direction: column;
         padding-bottom: 50px;
@@ -21,6 +25,10 @@
 
     div.container.temp{
         flex-direction: column;
+    }
+
+    section.template .item{
+        margin-top: 50px;
     }
 
     section.template .item:nth-child(1){
@@ -38,6 +46,11 @@
 
     div.container.prod{
         flex-direction: column;
+    }
+
+
+    section.product .item{
+        margin-top: 50px;
     }
 
     section.product .item:nth-child(1){
@@ -59,6 +72,11 @@
 
     section.more .mor{
         flex-direction: column;
+    }
+
+
+    section.more .item{
+        margin-top: 50px;
     }
 
     section.more .item:nth-child(1){
@@ -90,6 +108,10 @@
     section.features .fea{
         flex-direction: column;
         align-items: center;
+    }
+
+    section.features .item{
+        margin-top: 15px;
     }
 
     footer.bottom .copy{
