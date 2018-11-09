@@ -1,7 +1,13 @@
 @media screen and (max-width: 768px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     section.product .item__head_text{
         font-size: 14px;
     }
+
 }
 @media screen and (max-width: 500px) {
 
