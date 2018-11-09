@@ -98,6 +98,11 @@
         padding-right: 5%;
     }
 
+    section.just .item:nth-child(2git ){
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     section.just .item__head{
         margin-top: 25px;
     }
