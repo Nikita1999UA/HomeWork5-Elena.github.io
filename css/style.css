@@ -78,6 +78,8 @@ section.about .text__main_b{
     margin-top: 60px;
 }
 
+
+
 section.about .text__headline{
     text-align: center;
     font-size: 15px;
@@ -200,7 +202,6 @@ div.container.temp{
 section.template .item {
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
 }
 
 section.template .item:nth-child(1){
@@ -342,7 +343,6 @@ div.container.prod{
 section.product .item {
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
 }
 
 section.product .item:nth-child(1){
@@ -427,7 +427,6 @@ section.more .mor{
 section.more .item {
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
 }
 
 
@@ -506,7 +505,6 @@ section.just .jus{
 section.just .item {
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
 }
 
 
